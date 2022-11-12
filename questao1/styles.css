@@ -1,0 +1,42 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    font-weight: bold;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+tr:nth-child(-n+9) {
+    background-color: green;
+}
+
+tr:nth-child(n+10):nth-child(-n+16){
+    background-color: lightcoral;
+}
+
+tr:nth-child(n+17):nth-child(-n+20){
+    background-color: lightblue;
+}
+
+tr:nth-child(n+21):nth-child(-n+24){
+    background-color: yellow;
+}
+
+tr:nth-child(n+25):nth-child(-n+27){
+    background-color: orange;
+}
+
+/*Vai de -- até --*/
